@@ -1,0 +1,30 @@
+{
+  "name": "recipe_app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/uuid": "^8.3.0",
+    "bootstrap-scss": "^4.5.3",
+    "formik": "^2.2.5",
+    "react-router-dom": "^5.2.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^3.9.3",
+    "vite": "^1.0.0-rc.8",
+    "vite-plugin-react": "^3.0.0"
+  }
+}
