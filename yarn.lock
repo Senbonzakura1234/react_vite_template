@@ -520,6 +520,11 @@
   resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.0.tgz#215c231dff736d5ba92410e6d602050cce7e273f"
   integrity sha512-eQ9qFW/fhfGJF8WKHGEHZEyVWfZxrT+6CLIJGBcZPfxUh/+BnEj+UCGYMlr9qZuX/2AltsvwrGqp0LhEW8D0zQ==
 
+"@types/validator@^13.1.0":
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.1.0.tgz#3d776127dbce7dd31fc06f86d3428b072e631eba"
+  integrity sha512-gHUHI6pJaANIO2r6WcbT7+WMgbL9GZooR4tWpuBOETpDIqFNxwaJluE+6rj6VGYe8k6OkfhbHz2Fkm8kl06Igw==
+
 "@vue/compiler-core@3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.0.3.tgz#dbb4d5eb91f294038f0bed170a1c25f59f7dc74f"
@@ -2416,6 +2421,11 @@ uuid@^8.3.1:
   version "8.3.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
   integrity sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==
+
+validator@^13.1.17:
+  version "13.1.17"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.1.17.tgz#ad677736950adddd3c37209484a6b2e0966579ad"
+  integrity sha512-zL5QBoemJ3jYFb2/j38y7ljhwYGXVLUp8H6W1nVxadnAOvUOytec+L7BHh1oBQ82/TzWXHd+GSaxUWp4lROkLg==
 
 value-equal@^1.0.1:
   version "1.0.1"
