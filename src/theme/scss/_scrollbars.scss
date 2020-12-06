@@ -1,8 +1,12 @@
 @mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
     // For Google Chrome
     &::-webkit-scrollbar {
-      width:  $size;
-      height: $size;
+        width:  $size;
+            height: $size;
+        @media (min-width: 992px){
+            width:  $size*2;
+            height: $size*2;
+        }
     }
   
     &::-webkit-scrollbar-thumb {

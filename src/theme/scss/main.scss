@@ -1,6 +1,6 @@
-@import "./../theme/theme";
-@import "./../theme/overrides";
-@import "./../theme/scrollbars";
+@import "./theme";
+@import "./overrides";
+@import "./scrollbars";
 
 *{
     -webkit-touch-callout: none; /* iOS Safari */
@@ -10,7 +10,7 @@
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
-    // @include scrollbars(0.2em, $primary)
+    @include scrollbars(0.2em, $primary)
 }
 #root {
     height: 100vh !important;
@@ -37,6 +37,6 @@
         height: 90% !important;
     }
 }
-.modal{
-    display: block;
+button {
+    outline: none !important;
 }
